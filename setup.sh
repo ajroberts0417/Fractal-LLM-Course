@@ -9,6 +9,10 @@ curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mi
 bash Miniforge3-$(uname)-$(uname -m).sh
 # NOTE: after installing mamba, refresh your terminal
 
+# install git lfg
+curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+sudo apt-get install git-lfs
+
 # move in to the environment folder
 cd Fractal-LLM-Course/Fractal_LLM_Course/lesson_0/envs
 
