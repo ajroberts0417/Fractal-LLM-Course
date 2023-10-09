@@ -13,6 +13,10 @@ bash Miniforge3-$(uname)-$(uname -m).sh
 curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
 sudo apt-get install git-lfs
 
+# setup my git user
+git config --global user.email "ajroberts0417@gmail.com"
+git config --global user.name "ajroberts0417"
+
 # move in to the environment folder
 cd Fractal-LLM-Course/Fractal_LLM_Course/lesson_0/envs
 
