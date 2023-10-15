@@ -15,3 +15,8 @@ website:
     style: floating
 
 metadata-files: [nbdev.yml]
+
+publish:
+  site:
+    repository: "git@github.com:ajroberts0417/Fractal-LLM-Course.git"
+    branch: gh-pages
